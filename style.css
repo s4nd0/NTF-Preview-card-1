@@ -1,0 +1,143 @@
+body
+{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.m-y
+{
+    margin-top: 1.5rem;
+}
+
+.flex
+{
+    display: flex;
+}
+.flex-column
+{
+    flex-direction: column;
+}
+.flex-center
+{
+    align-items: center;
+}
+
+.nft-card
+{
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 15px 30px 5px hsl(216, 66%, 10%), -15px 30px 5px hsl(216, 66%, 10%), 40px 60px 5px hsl(215, 55%, 12%), -40px 60px 5px hsl(215, 55%, 12%), -40px -20px 5px hsl(215, 55%, 12%), 40px -20px 5px hsl(215, 55%, 12%);
+}
+
+.nft-card-png
+{
+    overflow: hidden;
+    border-radius: 0.5rem;
+    transition: 0.1s ease-in-out;
+}
+
+.nft-card-png:hover
+{
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+    opacity: 0.5;
+    
+}
+
+.nft-text h1
+{
+    color: white;
+    font-family: Outfit;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.nft-text p
+{
+    font-size: 18px;
+    color: hsl(215, 17%, 57%);
+    font-family: Outfit;
+}
+
+.nft-cost
+{
+    display: flex;
+    font-family: Outfit;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.cyan
+{
+    color: hsl(178, 100%, 50%);
+}
+.cyan-hover:hover
+{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+.soft-blue
+{
+    color: hsl(215, 17%, 57%);
+}
+
+.ad
+{
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
+.icon
+{
+    display: block;
+    background-position: center;
+    background-size: cover;   
+    margin-right: 0.3rem;
+}
+
+.outfit-font
+{
+    font-family: Outfit;
+}
+
+.etherum
+{
+    background-image: url(./images/icon-ethereum.svg);
+    height: 1.2rem;
+    width: 0.8rem;
+}
+
+.clock
+{
+    background-image: url(./images/icon-clock.svg);
+    height: 1.2rem;
+    width: 1.2rem;
+}
+
+.avatar
+{
+    background-image: url(./images/image-avatar.png);
+    height: 2rem;
+    width: 2rem;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+
+.attribution
+{
+    margin-top: 4rem;
+    font-size: 1rem;
+    color: hsla(228, 12%, 48%, 1);
+}
+.attribution a
+{
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+}
